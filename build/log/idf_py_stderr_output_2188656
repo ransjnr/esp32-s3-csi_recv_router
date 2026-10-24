@@ -1,0 +1,36 @@
+Command: /home/r26oppon/.espressif/python_env/idf5.5_py3.14_env/bin/python /home/r26oppon/.espressif/v5.5.6/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 921600 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/build/csi_recv_router.elf /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/build/bootloader/bootloader.elf -m '/home/r26oppon/.espressif/python_env/idf5.5_py3.14_env/bin/python' '/home/r26oppon/.espressif/v5.5.6/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+--- esp-idf-monitor 1.10.0 on /dev/ttyUSB0 921600
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4037b691: panic_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/panic.c:489
+--- 0x4037b65d: esp_system_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x403831c6: abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/newlib/src/abort.c:38
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x42083f8b: main_task at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/freertos/app_startup.c:215
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4037b691: panic_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/panic.c:489
+--- 0x4037b65d: esp_system_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x403831c6: abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/newlib/src/abort.c:38
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x42083f8b: main_task at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/freertos/app_startup.c:215
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4037b691: panic_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/panic.c:489
+--- 0x4037b65d: esp_system_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x403831c6: abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/newlib/src/abort.c:38
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x42083f8b: main_task at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/freertos/app_startup.c:215
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4037b691: panic_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/panic.c:489
+--- 0x4037b65d: esp_system_abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x403831c6: abort at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/newlib/src/abort.c:38
+--- 0x4037b653: _esp_error_check_failed at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/esp_system/esp_err.c:49
+--- 0x4200ad81: app_main at /home/r26oppon/Documents/mlpare-esp-csi-reference/examples/get-started/csi_recv_router/main/app_main.c:217
+--- 0x42083f8b: main_task at /home/r26oppon/.espressif/v5.5.6/esp-idf/components/freertos/app_startup.c:215
+
